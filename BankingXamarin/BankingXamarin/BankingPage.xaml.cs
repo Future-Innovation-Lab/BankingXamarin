@@ -66,7 +66,7 @@ namespace BankingXamarin
 
             try
             {
-                var reason = DepositReasonEntry.Text;
+                var reason = WithdrawReasonEntry.Text;
                 if (valid)
                 {
                     var trans = _account.WithdrawMoney(withdrawAmount, DateTime.Now, reason);

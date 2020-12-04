@@ -12,8 +12,8 @@
         <Entry  x:Name="DepositReasonEntry" Placeholder="Deposit Reason" />
         <Button x:Name="DepositButton" Text="Deposit" Clicked="DepositButton_Clicked"/>
 
-        <Entry  x:Name="WithdrawAmountEntry" Placeholder="Deposit Amount" Keyboard="Numeric" />
-        <Entry  x:Name="WithdrawReasonEntry" Placeholder="Deposit Reason" />
+        <Entry  x:Name="WithdrawAmountEntry" Placeholder="Withdraw Amount" Keyboard="Numeric" />
+        <Entry  x:Name="WithdrawReasonEntry" Placeholder="Withdraw Reason" />
         <Button x:Name="WithdrawButton" Text="Withdraw" Clicked="WithdrawButton_Clicked"/>
 
         <Button x:Name="DisplayTransactionsButton" Text="Display Transactions" Clicked="DisplayTransactionsButton_Clicked"/>
